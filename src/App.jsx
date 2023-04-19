@@ -93,7 +93,7 @@ function App() {
           <p className="weather py-8 text-center text-8xl">{`${Math.round(
             weather
           )}°`}</p>
-          <div className="flex flex-row justify-center gap-20 mt-12">
+          <div className="flex flex-col justify-center items-center gap-y-10 sm:flex-row sm:gap-x-20 sm:mt-12">
             <div className="tomorrow text-center text-sky-900 bg-blue-500 border-solid border-2  border-blue-800 rounded-xl pt-3 pb-6 w-32 h-24 relative mt-80 transition-all duration-700 ease-in-out">
               <p className="mb-2 text-xl">Tomorrow</p>
               <p className="text-sky-300">{`${Math.round(forecastOneDay)}°`}</p>
